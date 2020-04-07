@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:glassstellar/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:glassstellar/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:glassstellar/prow:hmacToken
+segmentWriteKey: vault:glassstellar:segmentWriteKey
